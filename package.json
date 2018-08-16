@@ -19,6 +19,7 @@
   "homepage": "https://github.com/JK-1117/Car-Service-Provider#readme",
   "devDependencies": {
     "browser-sync": "^2.24.6",
+    "gulp": "^4.0.0",
     "gulp-sass": "^4.0.1"
   },
   "dependencies": {
