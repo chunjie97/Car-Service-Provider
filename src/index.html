@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width" />
 
     <!-- Bootstrap css -->
-    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
 
     <!-- Papaer Kit2 css -->
     <link href="template/paper_kit2_free_v/assets/css/paper-kit.css?v=2.1.0" rel="stylesheet" />
@@ -24,8 +24,11 @@
         crossorigin="anonymous">
     <link href="template/paper_kit2_free_v/assets/css/nucleo-icons.css" rel="stylesheet" />
 
+    <!-- WOW Animation -->
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+
     <!-- Custom css -->
-    <link rel="stylesheet" href="css/structure.css">
+    <link rel="stylesheet" href="css/structure.css" type="text/css">
 
 </head>
 
@@ -116,7 +119,7 @@
                 <h2 class="title">How It Works</h2>
                 <div class="row">
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 wow bounceInUp" data-wow-duration="0.6s">
                         <div class="info">
                             <div class="icon icon-danger">
                                 <i class="nc-icon nc-email-85"></i>
@@ -129,7 +132,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 wow bounceInUp" data-wow-duration="0.6s" data-wow-delay="0.2s">
                         <div class="info">
                             <div class="icon icon-danger">
                                 <i class="nc-icon nc-pin-3"></i>
@@ -142,7 +145,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 wow bounceInUp" data-wow-duration="0.6s" data-wow-delay="0.4s">
                         <div class="info">
                             <div class="icon icon-danger">
                                 <i class="nc-icon nc-calendar-60"></i>
@@ -154,7 +157,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-3 wow bounceInUp" data-wow-duration="0.6s" data-wow-delay="0.6s">
                         <div class="info">
                             <div class="icon icon-danger">
                                 <i class="nc-icon nc-settings"></i>
@@ -173,67 +176,58 @@
         <!-- feature -->
         <div class="section" id="features">
             <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-5 card bg-danger">
+                <div class="row card-deck">
+                    <div class="col-md-5 card bg-danger wow slideInLeft" data-wow-duration="1s">
                         <div class="card-header">
-                            <div class="icon">
-                                <i class="nc-icon nc-calendar-60"></i>
-                            </div>
+                                <img src="assets/booking.png" alt="Booking" height="150px" class="card-img-top">
                         </div>
                         <div class="card-body">
                             <h4>
                                 Booking platform for drivers to request from various providers.
                             </h4>
                             <br>
-                            <button type="button" class="btn" data-container="body" data-toggle="popover" data-placement="top" data-title="Booking" data-content="If your car needs a repair, always source for a reliable, trusted and nearby mechanic via Carbengkel.">SEE MORE</button>
+                            <button type="button" class="btn btn-neutral" data-container="body" data-toggle="popover" data-placement="top" data-title="BOOKING" data-content="If your car needs a repair, always source for a reliable, trusted and nearby mechanic via Carbengkel.">SEE MORE</button>
                         </div>
                     </div>
 
-                    <div class="col-md-5 card bg-warning">
+                    <div class="col-md-5 card wow slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="card-header">
-                            <div class="icon">
-                                <i class="nc-icon nc-calendar-60"></i>
-                            </div>
+                                <img src="assets/roadtaxrenewal.png" alt="RoadTax Renewal" class="card-img-top">
                         </div>
                         <div class="card-body">
                             <h4>
-                                Booking platform for drivers to request from various providers.
+                                Renew Your Road Tax & Insurance Online.
                             </h4>
                             <br>
-                            <button type="button" class="btn btn-light" data-container="body" data-toggle="popover" data-placement="top" data-title="Booking"
-                                data-content="If your car needs a repair, always source for a reliable, trusted and nearby mechanic via Carbengkel.">SEE MORE</button>
+                            <button type="button" class="btn btn-neutral" data-container="body" data-toggle="popover" data-placement="top" data-title="ROAD TAX & INSURANCE RENEWAL" data-content="Drivers can renew their Road Tax and Car insurance with just a few Clicks.">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row card-deck">
+                    <div class="col-md-5 card bg-info wow slideInLeft" data-wow-duration="1s">
+                        <div class="card-header">
+                            <img src="assets/historyTracking.png" alt="Booking" height="150px" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                E-Service Book to keep track of historical service/repair
+                            </h4>
+                            <br>
+                            <button type="button" class="btn btn-neutral" data-container="body" data-toggle="popover" data-placement="top" data-title="KEEP TRACK YOUR HISTORY" data-content="Our e-Service Book allows you to keep record and keep track of all your car expenses in your handphone. This is important so you that your car record stays intact closest to you.">SEE MORE</button>
                         </div>
                     </div>
 
-                    <div class="col-md-5 card bg-info">
+                    <div class="col-md-5 card bg-green wow slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="card-header">
-                            <div class="icon">
-                                <i class="nc-icon nc-calendar-60"></i>
-                            </div>
+                            <img src="assets/car-rental.jpg" alt="Car Rental" class="card-img-top">
                         </div>
                         <div class="card-body">
-                            <h4>
-                                Booking platform for drivers to request from various providers.
+                            <h4 class="card-title">
+                                Online Booking for Car Rental Services 
                             </h4>
                             <br>
-                            <button type="button" class="btn btn-light" data-container="body" data-toggle="popover" data-placement="top" data-title="Booking"
-                                data-content="If your car needs a repair, always source for a reliable, trusted and nearby mechanic via Carbengkel.">SEE MORE</button>
-                        </div>
-                    </div>
-
-                    <div class="col-md-5 card bg-success">
-                        <div class="card-header">
-                            <div class="icon">
-                                <i class="nc-icon nc-calendar-60"></i>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h4>
-                                Booking platform for drivers to request from various providers.
-                            </h4>
-                            <br>
-                            <button type="button" class="btn btn-light" data-container="body" data-toggle="popover" data-placement="top" data-title="Booking"
-                                data-content="If your car needs a repair, always source for a reliable, trusted and nearby mechanic via Carbengkel.">SEE MORE</button>
+                            <button type="button" class="btn btn-neutral" data-container="body" data-toggle="popover" data-placement="top" data-title="CAR RENTAL SERVICES" data-content="Book any type of car anywhere anytime. You can choose and compare all car rental service providers in your location">SEE MORE</button>
                         </div>
                     </div>
                 </div>
@@ -252,8 +246,8 @@
             <div class="col-md-3 col-6">
                 <ul>
                     <li>
-                        <i class="fa fa-map-marked-alt icon-danger"></i> UTAR Kampar
-                        <br> &emsp; , Perak
+                        <i class="fa fa-map-marked-alt icon-danger"></i> UTAR Kampar, 
+                        <br> &emsp; Perak
                         <br> &emsp; Malaysia</li>
                     <li>
                         <i class="fa fa-envelope icon-danger"></i> info@example.com</li>
@@ -318,4 +312,12 @@
 <!--  Paper Kit Initialization snd functons -->
 <script src="template/paper_kit2_free_v/assets/js/paper-kit.js?v=2.1.0"></script>
 
+<!-- WOW Animation -->
+<script src="js/wow.min.js"></script>
+
+<script>
+    $(function(){
+  new WOW().init(); 
+});
+</script>
 </html>

@@ -17,5 +17,9 @@ li {
 
 .jumbotron-fluid {
     background-color: #ffffff !important;
-    border-top: 3px solid #dbdbdb; }
-  
+    border-top: 3px solid #dbdbdb; 
+}
+
+.bg-green {
+    background-color: #45982c;
+}
