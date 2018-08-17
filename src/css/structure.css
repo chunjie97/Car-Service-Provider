@@ -1,6 +1,9 @@
-[class^='col-md-'] {
-    margin: auto;
+.col-md-3, .col-md-6 {
     margin-top: 50px;
+}
+
+.col-md-7 {
+    margin-top: 100px;
 }
 
 .navbar-brand {
@@ -15,11 +18,19 @@ li {
     margin-bottom: 5px;
 }
 
-.jumbotron-fluid {
-    background-color: #ffffff !important;
-    border-top: 3px solid #dbdbdb; 
-}
-
 .bg-green {
     background-color: #45982c;
+}
+
+.icons a {
+    text-decoration: none;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.icons a:hover {
+    opacity: 0.7;
 }
