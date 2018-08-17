@@ -10,3 +10,12 @@
 .nav-link {
     margin: 0% !important;
 }
+
+li {
+    margin-bottom: 5px;
+}
+
+.jumbotron-fluid {
+    background-color: #ffffff !important;
+    border-top: 3px solid #dbdbdb; }
+  
