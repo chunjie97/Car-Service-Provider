@@ -1,0 +1,12 @@
+[class^='col-md-'] {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    padding: 10px 5px !important;
+}
+
+.nav-link {
+    margin: 0% !important;
+}
