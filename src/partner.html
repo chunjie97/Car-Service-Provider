@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="#top">
                     <img src="assets/logo.png" width="40px">BRAND</a>
                 <button class="navbar-toggler navbar-toggler-right navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,8 +50,8 @@
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#aboutUs" class="nav-link">
-                            <i class="nc-icon nc-single-copy-04"></i>About Us</a>
+                        <a href="index.html" class="nav-link">
+                            <i class="nc-icon nc-shop"></i>Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -81,7 +81,7 @@
     <!-- end navbar  -->
 
     <!-- header -->
-    <div class="page-header" data-parallax="true" style="background-image: url('assets/partner.jpg');">
+    <div class="page-header" data-parallax="true" style="background-image: url('assets/partner.jpg');" id="top">
         <div class="filter"></div>
         <div class="container">
             <div class="motto text-center">
@@ -116,56 +116,69 @@
         <!-- how section -->
         <div class="section text-center text-light" id="whyUs">
             <div class="container">
-                <h2>How It Works</h2>
-                <div class="row">
+                <h2>Why Us</h2>
 
-                    <div class="col-md-3">
-                        <div class="info">
-                            <div class="icon icon-danger wow fadeInUp">
-                                <i class="nc-icon nc-email-85"></i>
-                            </div>
-                            <div class="wow slideInLeft" data-wow-duration="0.6s">
-                                <h4>Request Job</h4>
-                                <p>Describe the repair work that you need by either taking picture of the problem area or record
-                                    the sound of the noise problem or describe it in words.</p>
-                            </div>
-                        </div>
+                <div class="info row">
+                    <div class="icon icon-danger wow fadeInUp col-md-4">
+                        <i class="nc-icon nc-send"></i>
                     </div>
-
-                    <div class="col-md-3">
-                        <div class="info">
-                            <div class="icon icon-danger wow fadeInUp">
-                                <i class="nc-icon nc-pin-3"></i>
-                            </div>
-                            <div class="wow slideInLeft" data-wow-duration="0.6s">
-                                <h4>Select a nearby workshop and make an appointment</h4>
-                                <p>System will display a list of nearby workshop for you to choose. You can select as many workshop
-                                    to make an appointment</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 wow bounceInUp" data-wow-duration="0.6s" data-wow-delay="0.4s">
-                        <div class="info">
-                            <div class="icon icon-danger">
-                                <i class="nc-icon nc-calendar-60"></i>
-                            </div>
-                            <h4>Appointment confirmed.</h4>
-                            <p>A workshop that is available on the date & time of your appointment will confirm the appointment.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 wow bounceInUp" data-wow-duration="0.6s" data-wow-delay="0.6s">
-                        <div class="info">
-                            <div class="icon icon-danger">
-                                <i class="nc-icon nc-settings"></i>
-                            </div>
-                            <h4>Problem fixed</h4>
-                            <p>Ready to go</p>
-                        </div>
+                    <div class="wow slideInRight col-md-8 text-md-left text-center" data-wow-duration="0.6s">
+                        <h4>Fast</h4>
+                        <p>Describe the repair work that you need by either taking picture of the problem area or record the
+                            sound of the noise problem or describe it in words.</p>
                     </div>
                 </div>
-                <!-- /row -->
+
+                <div class="info row">
+                    <div class="icon icon-danger wow fadeInUp col-md-4 order-md-12 flex-first" data-wow-delay="0.2s">
+                        <i class="nc-icon nc-globe"></i>
+                    </div>
+                    <div class="wow slideInLeft col-md-8 text-md-right text-center" data-wow-duration="0.6s" data-wow-delay="0.2s">
+                        <h4>Expand Your Network.</h4>
+                        <p>System will display a list of nearby workshop for you to choose. You can select as many workshop
+                            to make an appointment</p>
+                    </div>
+                </div>
+
+                <div class="info row">
+                    <div class="icon icon-danger wow fadeInUp col-md-4" data-wow-delay="0.4s">
+                        <i class="nc-icon nc-paper"></i>
+                    </div>
+                    <div class="wow slideInRight col-md-8 text-md-left text-center" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <h4>Keep Track Your Business Report</h4>
+                        <p>A workshop that is available on the date & time of your appointment will confirm the appointment.</p>
+                    </div>
+                </div>
+
+                <div class="info row">
+                    <div class="icon icon-danger wow fadeInUp col-md-4 order-md-12" data-wow-delay="0.6s">
+                        <i class="fa fa-chart-line"></i>
+                    </div>
+                    <div class="wow slideInLeft col-md-8 text-md-right text-center" data-wow-duration="0.6s" data-wow-delay="0.6s">
+                        <h4>Increase Your Revenue.</h4>
+                        <p>Ready to go</p>
+                    </div>
+                </div>
+
+                <div class="info row">
+                    <div class="icon icon-danger wow fadeInUp col-md-4" data-wow-delay="0.8s">
+                        <i class="nc-icon nc-tv-2"></i>
+                    </div>
+                    <div class="wow slideInRight col-md-8 text-md-left text-center" data-wow-duration="0.6s" data-wow-delay="0.8s">
+                        <h4>Easy to Operate.</h4>
+                        <p>A workshop that is available on the date & time of your appointment will confirm the appointment.</p>
+                    </div>
+                </div>
+
+                <div class="info row">
+                    <div class="icon icon-danger wow fadeInUp col-md-4 order-md-12" data-wow-delay="1s">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="wow slideInLeft col-md-8 text-md-right text-center" data-wow-duration="0.6s" data-wow-delay="1s">
+                        <h4>24/7 Online Support.</h4>
+                        <p>Ready to go</p>
+                    </div>
+                </div>
             </div>
             <!-- /container -->
         </div>

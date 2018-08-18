@@ -48,7 +48,7 @@ li {
 }
 
 #whyUs {
-    box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.3);
     background: url('../assets/whyUs.jpg') no-repeat fixed top;
     background-size: cover;
     color: #ffffff;
