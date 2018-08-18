@@ -18,6 +18,14 @@ li {
     background-color: #45982c;
 }
 
+.jumbotron-fluid {
+    padding: 128px 0px;
+    /* box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.2); */
+    background: url(../assets/sign.png) left no-repeat, linear-gradient(45deg,#ff5c61,#752023);
+    background-size: contain;
+    background-position: 150px, 0px;
+}
+
 .icons a {
     text-decoration: none;
     margin-top: 25px;
